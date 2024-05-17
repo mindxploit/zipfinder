@@ -45,15 +45,11 @@ function App() {
           }
           console.log(data);
         })
-        .catch((error) => console.log("err", error));
+        .catch((error) => console.error("err", error));
     } else {
       setFetchedData();
     }
-  }, [country, zipCode]);
-
-  useEffect(() => {
-    console.log(fetchedData);
-  }, [fetchedData]);
+  }, [country, zipCode, toast]);
 
   return (
     <Box height={"100vh"} backgroundColor={"orange.100"} pt={20}>
