@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Zipfinder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Little tool to search useful informations by putting your zip code!
 
 ## Available Scripts
 
